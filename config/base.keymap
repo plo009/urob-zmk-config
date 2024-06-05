@@ -207,8 +207,8 @@ ZMK_MOD_MORPH(bs_del,
 
 ZMK_MOD_MORPH(smart_tab,
     bindings = <&smart_num>, <&kp TAB>;
-    mods = <(MOD_LALT|MOD_LCRTL)>;
-    keep-mods = <(MOD_LALT|MOD_LCRTL)>;
+    mods = <(MOD_LALT|MOD_LCTL)>;
+    keep-mods = <(MOD_LALT|MOD_LCTL)>;
 )
 
 // tap: copy | double-tap: cut
