@@ -206,7 +206,7 @@ ZMK_MOD_MORPH(bs_del,
 )
 
 ZMK_MOD_MORPH(smart_tab,
-    bindings = <&smart_num>, <&kp TAB>;
+    bindings = <SMART_NUM>, <&kp TAB>;
     mods = <(MOD_LALT|MOD_LCTL)>;
     keep-mods = <(MOD_LALT|MOD_LCTL)>;
 )
